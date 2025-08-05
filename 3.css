@@ -1,0 +1,98 @@
+*
+{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    font-size: 3rem;
+}
+.logo {
+    width: 30%;
+    max-width: 70px;
+}
+
+.company_name {
+    padding-top: 1rem;
+    text-align: left;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    flex: 4;
+    flex-basis: 750px;
+}
+
+section .box {
+    padding: 0.5rem;
+}
+
+section .row {
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 5px;
+    justify-content: space-evenly;
+}
+
+section .col {
+    border: 2px solid black;
+    flex-basis: 380px;
+    box-sizing: content-box;
+    background-color: rgb(248, 231, 231);
+    box-shadow: 1px 1px 10px black;
+}
+
+.box .product {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+section .bio {
+    padding: 0 10px;
+}
+
+button {
+    background-color: rgb(30, 28, 28);
+    color: white;
+    border: 1px solid;
+    width: 100%;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 1rem;
+}
+
+aside {
+    background-color: antiquewhite;
+    flex: 1;
+    padding: 10px;
+    line-height: 2rem;
+    align-items: flex-start;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
